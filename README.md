@@ -46,12 +46,12 @@ Dr. A.P.J Abdul Kalam Technical University(AKTU)
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | T.Senthil Siva Subramanian | Faculty |        | Hindustan College of Science & Technology 
-2 | SONENDRA | Faculty | Mechanical Engineering | KIET Group of Institutions,Ghaziabad
-3 | YASH BHARADWAJ | Student | Mechanical Engineering | KIET Group of Institutions,Ghaziabad
-4 | AVIRAL SRIVASTAVA | Student | Information Technology | KIET Group of Institutions,Ghaziabad
-5 | AMIR IQBAL | Student | Information Technology | KIET Group of Institutions,Ghaziabad
-6 | YOGYA KHURANA | Student | Electronics and Communication | KIET Group of Institutions,Ghaziabad
+1 | T.Senthil Siva Subramanian | Faculty |        | Hindustan College of Science & Technology | Tss.senthil.hcst@sgei.org
+2 | SONENDRA | Faculty | Mechanical Engineering | KIET Group of Institutions,Ghaziabad | Sonendra.sharma@kiet.edu
+3 | YASH BHARADWAJ | Student | Mechanical Engineering | KIET Group of Institutions,Ghaziabad | 
+4 | AVIRAL SRIVASTAVA | Student | Information Technology | KIET Group of Institutions,Ghaziabad | avisrivastava104@gmail.com
+5 | AMIR IQBAL | Student | Information Technology | KIET Group of Institutions,Ghaziabad | amireripmav786@gmail.com
+6 | YOGYA KHURANA | Student | Electronics and Communication | KIET Group of Institutions,Ghaziabad | khurana.yogya05@gmail.com
 
 
 <br>
