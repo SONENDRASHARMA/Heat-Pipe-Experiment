@@ -3,53 +3,55 @@
 Remove this line before submitting : To Refer a filled sample of this template visit here : <br> http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/Samples
 <br>
 
-<b>Discipline | <b>Type Name of Discpline  to which lab belongs
+<b>Discipline | <b>Mechanical Engineering
 :--|:--|
-<b> Lab | <b> Type name of the lab
-<b> Experiment|     <b> 1. (enter the correct experiment number) Name of the experiment
+<b> Lab | <b> Heat and Mass Transfer
+<b> Experiment|     <b> 1.Heat Pipe Convection Experiment
 
 <h5> About the Lab (Objective) : </h5>
 
-Type here: berif description of the lab
+Heat and Mass Transfer lab is introduced into fifth semester of course B.Tech in Mechanical Engineering. The main objective of this lab is to determine the heat transfer rates for  heat transfer processes like Conduction , Convection and Radiation to examine the methods to achieve desired rate of heat transfer in various types thermal systems and heat exchangers.
 
 <h5> About the Experiment : </h5>
 
-Type here: berif description of this experiment
+To demonstrate the super thermal conductivity of heat pipe and to compare its working with best conductor i.e Cu pipe ans Stainless Steel pipe.To verify that heat transfer rate for heat pipe is higher than other available metals in industry
 
 <h5> Target Audience : </h5>
 
-Type here: the target audience
+UG  Students and faculties of Mechanical Engineering
 
 <h5> Course Alignment : </h5>
 
-Type here: courses aligned
+B.Tech (Mechanical Engineering), Heat and Mass Transfer Lab(KME551)
 
 <h5> Universities Mapped : </h5>
 
-Type here: universities mapped
+Dr. A.P.J Abdul Kalam Technical University(AKTU)
 
-<b>Name of Developer | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Name of Developer | <b> SONENDRA
 :--|:--|
-<b> Institute | <b> My Institute name
-<b> Email id|     <b> abc@example.com
-<b> Department | Name of the department in which you work
+<b> Institute | <b> KIET Group of Institutions,Ghaziabad
+<b> Email id|     <b> Sonendra.sharma@kiet.edu
+<b> Department | Mechanical Engineering
 
 #### Mentor Details
 
-<b>Mentored by | <b> (of professor only (no prefix Prof/Mr/MRS) - - - - - -
+<b>Mentored by | <b> T.Senthil Siva Subramanian
 :--|:--|
-<b> Institute | <b> Institute name
-<b> Email id|     <b> abc@example.com
-<b> Department | Name of the department
+<b> Institute | <b> Hindustan College of Science & Technology
+<b> Email id|     <b> Tss.senthil.hcst@sgei.org
+<b> Department | 
 
 #### Contributors List
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | Full name | Faculty | Dept Name | Name of the Insitute, City | abc@example.com
-2 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-3 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
-4 | Full name | Student | Dept Name | Name of the Insitute, City |abc@example.com
+1 | T.Senthil Siva Subramanian | Faculty |        | Hindustan College of Science & Technology 
+2 | SONENDRA | Faculty | Mechanical Engineering | KIET Group of Institutions,Ghaziabad
+3 | YASH BHARADWAJ | Student | Mechanical Engineering | KIET Group of Institutions,Ghaziabad
+4 | AVIRAL SRIVASTAVA | Student | Information Technology | KIET Group of Institutions,Ghaziabad
+5 | AMIR IQBAL | Student | Information Technology | KIET Group of Institutions,Ghaziabad
+6 | YOGYA KHURANA | Student | Electronics and Communication | KIET Group of Institutions,Ghaziabad
 
 
 <br>
