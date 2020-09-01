@@ -66,9 +66,7 @@ Read the theory and comprehend the concepts related to the experiment. [LO1, LO2
 Sr. No |	Learning Objective	| Task to be performed by <br> the student  in the simulator | Assessment Questions as per LO & Task
 :--|:--|:--|:-:
 1.| LO1 | Student will supply power to all three rods. | Heat pipe is widely used now a days because <br> a) It acts as an insulator <br> b) It acts as conductor and insulator <br> c) It acts as an superconductor <br> d) It acts as a fin.
-
 2.| LO2,LO3 | Student will wait for the steady state and after that note down the value of temperature at different surfaces. | 1 The working principle of Heat pipe is<br> A. a) Evaporation-Condensation cycle. <br> B.a) Evaporation-Condensation cycle. <br> C.c) Fouriers Law of Conduction <br> <b> D. d) Newtons Law of cooling </b> <br> (mark correct option as bold text)
-
 3.| LO1.LO2,LO3 |Observe that temperature of water in reservoir connected at other end of heat pipe is higher than that of Cu rod and Stainless steel rod. | Heat pipes are not used in which of the following <br> A.Spacecrafts <br> B.Computer systems <br> Nuclear power cnversion <br> Boiler
 
 
