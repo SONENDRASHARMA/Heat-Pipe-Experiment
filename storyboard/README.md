@@ -2,54 +2,52 @@
 
 Delete this line before submission : The core principle of Round 2 is to make the lab/experiment documentation elaborated in a manner that it makes easy for any person (developer/domain and non domain faculty/student) to understand and develop the lab/experiment.
 
-Experiment 1: Name of the Experiment
+Experiment 1:To demonstrate the super thermal conductivity of heat pipe and to compare its working with best conductor i.e Cu pipe ans Stainless Steel pipe
 
 ### 1. Story Outline:
 
-Describe outline Here ( guide : The proposer should first draft the story outline for the proposed outline. This could be 2 or 3 paragraphs.)
+This Experiment contains 3 rods I.e. heat pipe, copper rod and stainless steel rod. At one end of all three rods band heater is attached. 3 temperature sensors measure temperature along the length of pipe for each rod and one temperature sensor measure the temperature of water in the reservoir attached to each rod.
 
 ### 2. Story:
 
-Describe the Story intorduction here (guide : The next step is to write a story. Story should be a brief logical description in simple English. It should talk about the overall execution of the experiment in a simplified manner. (should not include any equations/ drawings). The story should include the following points) )
+When power is supplied to band heaters . one end of all three rods gets heated. Heat starts flowing from heater end to condenser end . hence temperature at specified locations along the rods increases. Also temperature of water in all three condenser also increases. We measure temperatures of all 12 temperature sensors after 10 minutes. If it is found that temperature of water in the condenser attached to heat pipe is higher than temperature of other two condensers, it means heat transfer rate for heat pipe is higher than other two rods.
 
 #### 2.1 Set the Visual Stage Description:
-Describe here : (guide When a user lands up into a simulator, the visual stage is the first thing that user comes across. The visual stage should include all the elements to be seen by a user on an imaginary canvas.  (This should NOT include any drawings. ) )
+In the simulator user will be able to see the virtual prototype of experimental set up resembling the actual experimental set up that is present in real time labs. In the set up there control panel which houses voltmeter, ammeter, temperture indicator , dimmerstat ,mains switch and a table on which 3 rods alond with heater at one end and condensers at other end are mounted.
 
 #### 2.2 Set User Objectives & Goals:
-Describe the objectives and goals in details here : (guide : The user should clearly understand the aims and objective of the experiment. ( how he will begin experiment. ?  in descriptive))
+1.	By this experiment student will be able to recall basics of heat transfer
+2.	This experiment will describe the application of heat pipe
+3.	Student will be able to understand the relation between temperature gradient and heat flow rate.
+4.	Student will be able to recall the basic concepts of conduction and convection.
+
 
 #### 2.3 Set the Pathway Activities:
 
-Describe the pathway activites here : (Guide : Set the pathway activities in line with the learning objectives (LOs)  & with a view to achieve the goals set in round #0 & round#1.  (once he begins, how he will traverse through the entire experiment ? in descriptive))
+1.	In the experimental set up, there is electric power supply. User will start the electric supply by pressing start botton
+2.	User can change the value of voltmeter by using dimmerstat
+3.	For a particular power supply , readings of temperature indicators can be noted down.
+
 
 ##### 2.4 Set Challenges and Questions/Complexity/Variations in Questions:
 
-Describe the challenges Here : (guide : Set Challenges and Questions/Complexity/variations in questions according to User’s level, so as to invoke the learners’ interest.  (while traversing, what challenges he will face? how he has to solve and overcome ? descriptive).)
 
 ##### 2.5 Allow pitfalls:
-Describe the pitfalls here: (guide : (while traversing or while solving challenge, how will we bring a situation in front of him that he commits mistake if he is not attentive , or not following procedure , descriptive))
-
+1.	If user doesn't allow 10 minutes heating before measuring temperature to develop then 
 ##### 2.6 Conclusion:
-Describe conclusion here : (guide: This may include displaying: how much time did the user take to solve the questions/ How many questions were right?/ How many hints did the learner use. Based on this the evaluation/marking to be suggested to the user. (once he is towards the completion of the experiment, what LO he is taking along with him, what will be his probable, interpretation/conclusion , descriptive) )
-
-##### 2.7 Equations/formulas: NA
-Type equations here : (guide : ( a separate sheet having equations / programs for the lab exper3ment to be shared along with the Story submissions (1) . You can mark it as numerical reference numbers within the story narration (like we cite in the research papers) and then separately share these equations/programs sheets as a reference, do not include the equations as a whole in the narration))
-Tool can be used to integrate formula in Markdown <b> [here](http://latex.codecogs.com/eqneditor/samples/example3.php) </b>
-
+User will take approximate 7-10 minutes for understanding the procedure. Then for generating data by the help of simulator will take 3-5 minutes. In this along with generation of data student will be able to verify that heat flow rate for heat pipe is higher than copper rod and stainless steel rod.After onwards for calculating result will take 5 minutes. Hence total time taken for doing experiment will be approximately 10 minutes.
 
 ### 3. Flowchart 4
-<img src="flowchart/flowchart.png"/><br>
+<img src=""/><br>
 link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
 <br>
 (guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
 
-### 4. Mindmap:
-<img src="mindmap/mindmap.png"/>
- Link to mindmap here : Store the mindmap in both .mm & .png extension in the  /mindmap folder and include link of only .pdf verison here
- <br>
- (guide : An elaborate mind map (connecting all the points in the experiment flow ) should be prepared and submitted by the lab proposer. The mind map should be a clear and detailed document that takes into account all minute intri5acies involved in the development of virtual lab. The mindmap should be self-content and any developer across the globe should be able to code it with all those details. using only FreeMind http://freemind.sourceforge.net/wiki/index.php/Main_Page (send the .png file and also the original .mm extension project file. )
 
 ### 5. Storyboard :
-Storyboard: <a href="Storyboard/carwiper.gif"> [here]</a>
-Link to storybaord (.gif file ) here :
-(guide: This document should include sketching and description scene wise (duration, action, description). Software to be used for storyboarding : https://wonderunit.com/storyboarder/ (Its a FOSS tool) . tutorial on how to use it https://www.youtube.com/watch?v=LAeCEpG0KX4
+Step1: Close the drain valve of condenser tank.and fill equal amount of waterin three condenser tanks so that pipe is submerged completely in water.
+Step2: Switch on main ON/OFF switch.
+Step3: Set the heater input by dimmerstat, voltmeter in the range of 40 to 100 V.
+
+Step4: After 15 min note down the readings of voltmeter , ammeter and temperature sensors in observation table after every 10 minutes interval 
+Step5: After experiment is over ,set dimmerstat to zero , switch off the main supply and drain water from condenser.
