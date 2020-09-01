@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMULATOR</title>
+    <link rel="stylesheet" href="css/b1.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    
+  
+    <link rel="icon" type="img/ico" href='images/1571909953phpVubCwi.jpeg'>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Vlab Experiment</title>
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/vlab.css">
+      <script src="js/vlab.js"></script>
+      <script src="js/lab.js"></script>
+      
+      <link rel="stylesheet" href="css/gauge.css">
+      <script src="js/gauge.min.js"></script>
+      <script src="js/bootstrap.min.js"></script>
+     
+
+
+
+
+
+
+</head>
+<body>
+  <div id="sidebar" style="display: none;">
+    <div class="toggle-btn" onclick="togglesidebar()">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+    <ul>
+        <li style="font-size:x-large;">ENTER THE VALUES</li><br>
+        <label for="fname1">INPUT VOLTAGE:</label>
+        <li><input id="fname1" class ="voltage" type="text" value=""></li>
+        <label for="fname2">INPUT CURRENT ():</label>
+        <li><input id="fname2" class="current" type="text" value=""></li>
+        <label for="fname">INPUT VOLUME OF WATER:</label>
+        <li><input id="fname" type="text" name="volume" placeholder="124cm^3"></li><br>
+    </ul>
+    
+    <button class="btn btn-primary" style="margin-left: 50px;background-color:dimgray;color: white;font-size: 20px;" onclick="calculation()">Simulate Experiment</button>
+
+    <button class="btn btn-primary" style="margin-left: 50px; margin-top: 30px;background-color:dimgrey;color: white;font-size:20px" onclick="showresults()">Show Results</button>
+</div>
+        
+        <div class="hone"><h2>SUPER THERMAL CONDUCTIVITY EXPERIMENT OF HEAT PIPE</h2>
+        
+        <br>
+          <h4>AIM :To Demonstrate the super thermal conductivity of heat pipe and to compare its working with best conductor i.e. Copper pipe and Stainless Steel pipe </h4>
+     
+        </div>
+        
+        
+
+
+
+<script src="myscript.js">conected</script>
+<style>
+#myProgress {
+  width: 100%;
+  background-color: #ddd;
+}
+
+#myBar {
+  width: 1%;
+  height: 30px;
+  background-color:rgb(93, 39, 39);
+}
+</style>
+<body >
+
+  <div style="display: none;" id='progress_bar'>
+  
+      <h3 id='message'> Machine starting Up!</h3>
+  
+
+<div id="myProgress">
+  <div id="myBar"></div>
+</div>
+
+<br>
+
+</div>
+
+</body>
+
+
+        
+        
+            
+      
+
+  <div  class="container " id="gauges" style="padding:5px;margin-left: 2.2cm;">
+
+      
+
+     <div class="row">
+      
+     
+  
+     <div class="col-md-3">
+   
+     
+      
+                <canvas id="vol" style="z-index: 100; position:absolute;margin-top:160px; margin-left: 610px; " data-type="radial-gauge"
+                data-width="150"
+                data-height="150"
+                data-units="Volt"
+                data-min-value="0"
+                data-max-value="220"
+                data-major-ticks="0,20,40,60,80,100,120,140,160,180,200,220"
+                data-minor-ticks="2"
+                data-stroke-ticks="true"
+                data-highlights='[
+                ]'
+                data-color-plate="whitesmoke"
+                data-border-shadow-width="5"
+                data-borders="false"
+                data-needle-type="arrow"
+                data-needle-width="8"
+                data-needle-circle-size="6"
+                data-needle-circle-outer="true"
+                data-needle-circle-inner="false"
+                data-animation-duration="1500"
+                data-animation-rule="linear"
+            ></canvas>
+            <canvas id="amp" style="z-index: 100; position:absolute;margin-top:160px; margin-left: 750px; " data-type="radial-gauge"
+            data-width="150"
+                data-height="150"
+            data-units="Ampere"
+            data-min-value="0"
+            data-max-value="10"
+            data-major-ticks="0,0.5,1.0,1.5,2.0,2.5,3.0,3.5,4.0,4.5,5.0,5.5"
+            data-minor-ticks="2"
+            data-stroke-ticks="true"
+            data-highlights='[
+            ]'
+            data-color-plate="whitesmoke"
+            data-border-shadow-width="5"
+            data-borders="false"
+            data-needle-type="arrow"
+            data-needle-width="8"
+            data-needle-circle-size="7"
+            data-needle-circle-outer="true"
+            data-needle-circle-inner="false"
+            data-animation-duration="1500"
+            data-animation-rule="linear"
+        ></canvas>
+        <canvas data-width="80"
+        data-height="170" id="temp1" style="z-index: 100; position:absolute;margin-top:315px; margin-left: 610px;"  data-type="linear-gauge" data-animation-duration="1500"
+        data-animation-rule="linear" data-units="Celsius" ></canvas>
+
+        <canvas data-width="80"
+        data-height="170" id="temp2" style="z-index: 100; position:absolute;margin-top:315px; margin-left: 690px;"  data-type="linear-gauge" data-animation-duration="1500"
+        data-animation-rule="linear" data-units="Celsius" ></canvas>
+        <canvas data-width="80"
+        data-height="170" id="temp3" style="z-index: 100; position:absolute;margin-top:315px; margin-left: 760px;"  data-type="linear-gauge" data-animation-duration="1500"
+        data-animation-rule="linear" data-units="Celsius" ></canvas>
+        <img src="images/off.png" id='switch'  onclick="timer()" style="margin-left:830px; margin-top:369px; position: absolute; ">
+  </div>
+  
+      
+        
+   </div> 
+  </div>
+
+
+ 
+
+  <img src="images/book.png"  onclick="openbookmarks()" style="height:80px;width:100px; float: right; margin-right:40px;">
+
+
+  <img src="images/obj.jpg"  onclick="openformula()" style="height:80px;width:100px; float: right; margin-right:40px;">
+
+  <div class="bg-modal" id='bookmarks' style="display: none;">
+   
+  
+                
+    <div class="container" id='card' style="margin: auto;">
+      
+    
+    
+    <h3><b>SIMULATOR PROCEDURES</b></h3> 
+    <ul >
+ 
+          OPEN THE SIMULATOR.
+ <br>
+          1 ) CLICK ON THE OBJECTIVE MENU TO FIND WHAT THE EXPERIMENT IS ABOUT
+ <br>
+     
+          2 ) CLICK ON THE PROCEDURE MENU TO FIND THR PROCEDURES
+     <br>
+          3 ) NOW TURN ON THE SWITCH OF THE MACHINE OR CLICK THE START MACHINE BUTTON
+     <br>
+          4) NOW A TOGGLE BUTTON WILL APPEAR ON THE LEFT CORNER. CLICK THE BUTTON TO ENTER THE VALUES OF VOLTAGE (40v-100v) , CURRENT(0.10A -0.8) AND VOLUME(PREDEFINED).
+          <br>
+          5 ) CLICK ON THE SIMULATE BUTTON . YOU WILL NOTICE THE CHANGES IN THE <b>voltmeter</b> AND <b>ammeter</b> . ALSO FOR ALL THE <b>temperature</b>
+          <br>
+          6 ) NOW CLICK SHOW BUTTON TO FIND ALL THE RESULTS.
+          <br>
+    
+    
+    
+    <button class="btn btn-danger" onclick="closebookmarks()">CLOSE</button>
+    </div>
+  
+  
+  </div>
+
+
+  <div class="bg-modal" id='formula' style="display: none;">
+   
+  
+                
+    <div class="container" id='card' style="margin: auto;">
+      
+    
+   <h3 class="g1"><b>THEORY</b></h3>
+   <ul style="font-size: 17px;">
+    <li> 1 )This Experiment contains 3 rods I.e. heat pipe, copper rod and stainless steel rod.</li>
+    <li> 2 )At one end of all three rods band heater is attached. </li>
+     <li>3 ) 3 temperature sensors measure temperature along the length of pipe for each rod and one temperature sensor measure the temperature of water in the reservoir attached to each rod.  </li>
+  </ul> 
+  
+  <h3 class="g1"><b>Objective</b></h3>
+  <ul>
+   <li> 1 )When power is supplied to band heaters . one end of all three rods gets heated.</li> 
+  <li>2 ) Heat starts flowing from heater end to condenser end  hence temp</li>
+   <li>3 )  We measure temperatures of all 12 temperature sensors after 10 minutes. </li>
+   <li>4 ) If it is found that temperature of water in the condenser attached to heat pipe is higher than temperature of other two condensers.</li>
+    <li>5 ) It means heat transfer rate for heat pipe is higher than other two rods</li>
+  </ul>
+    
+    
+    
+    <button class="btn btn-danger" onclick="closeformula()">CLOSE</button>
+    </div>
+  
+  
+  </div>
+ <script>
+   function openbookmarks()
+   {
+     document.getElementById('bookmarks').style.display='';
+     document.getElementById('gauges').style.display='none';
+   }
+
+   function closebookmarks()
+   {
+     
+    document.getElementById('bookmarks').style.display='none';
+     document.getElementById('gauges').style.display='';
+   }
+   function openformula()
+   {
+     document.getElementById('formula').style.display='';
+     document.getElementById('gauges').style.display='none';
+   }
+
+   function closeformula()
+   {
+     
+    document.getElementById('formula').style.display='none';
+     document.getElementById('gauges').style.display='';
+   }
+ </script>
+
+
+
+
+
+<script src="js/GaugeMeter.js"></script>
+
+
+        
+        
+        <div class="ig1" style="border-width: 0px;">
+         <div class="ig2" style="border-width: 0px;">
+          <img src="images/off1.png" style="width: 700px;border: 4px solid black;padding: 3px;">
+        </div>
+     
+    
+        <div class="b1">
+        <button type="button" class="btn btn-danger btn-lg" onclick="timer()" id="start_button">START THE MACHINE</button>
+       
+        </div>
+       
+      </div>
+     
+
+
+
+      <div class="bg-modal" id='instructions' style="display: none;">
+
+        <table>
+    
+    
+    
+            <tr>
+                
+            <td>
+                
+                 <div class="container" id='card'>
+                             <p id='makeheading'>Results:</p>
+
+                             <p id='subheading'><b>Metal Rod ThermoCouple Reading (degree Celsius)</b></p>
+                             
+                             <p id='content'>
+                              T4,T8,T12 : <b>Will be the final Temperature of heat pipe , copper pipe and stainless steal</b><br> 
+                              T1,T2,T3 : <b>will be the intermediate Temperatures for the heat pipe</b><br>
+                              T5,T6,T7 : <b>will be the intermediate Temperatures for the copper pipe></b> <br>
+                              T9,T10,T11 :<b> will be the intermediate Temperatures for the stainless steal</b> <br><br><br>
+                              <em>Temperatures will be calculated at 5min, 10min, 15min, 20min , 25min </em><br>
+                              <em>Also the final temperatures at the distance from each thermocouple will be displayed</em><br>
+                              
+                              
+                            
+                         
+                            </p>
+                            
+                            <p style="margin-top: 2cm;">           
+                                <button onclick="previousslide()" class='btn btn-danger'>Previous</button>
+                            
+                                <button onclick="nextslide()" class='btn btn-danger'>Next</button>
+                             </p>
+                 
+            
+                  </div>
+                
+               </td>    
+              </tr>
+      
+            </table>
+
+          </div>
+    
+
+
+    <style>
+       #card{
+    margin:30px;
+        width: 15cm;
+        height: 15cm;
+        border-radius: 10px;
+        background-color: white;
+        padding: 8px;
+        padding-top: 50px;
+        left:0;
+        
+        
+    }
+
+.bg-modal{
+    width:100%;
+    height: 100%;
+    background-color : black;
+    opacity: 1;
+    position:fixed;
+    top:0;
+    display: flex;
+    left:0;
+}
+#makeheading{font-size: 40px; font-weight: bolder;font-family: 'Piedra', cursive;
+    }
+    table{
+      margin: auto;
+    }
+    p{
+      text-align: center;
+    }
+
+    </style>
+
+
+
+
+<script>
+
+
+  function showresults(){
+    document.getElementById('gauges').style.display='none';
+    document.getElementById('instructions').style.display='';
+    
+  }
+  var slidecounter=0;
+  
+  function nextslide(){
+    
+      slidecounter=slidecounter+1;
+      
+      changeslide();
+  }
+  function previousslide()
+  {  
+      slidecounter=slidecounter-1;
+      changeslide();
+  }
+  
+  function calc()
+  {
+  var vol=document.getElementById("fname1").value;
+  var cur=document.getElementById("fname2").value;
+  var vall=vol*cur;
+  return (vall);
+  }
+
+  function changeslide()
+  {   
+    
+    var val=calc();
+    var x=0;
+    var d=0;
+
+      if(slidecounter==1)
+      {
+        if(val>24.0)
+        {
+          d=val-24.0;
+          x=x+(0.15*d);
+        }
+        else if(val<24.0)
+        {
+          d=24.0-val;
+          x=x-(0.15*d);
+        }
+        var t15=39.5+x; var t25=38.1+x; var t35=24.1+x; var t45=22.7+x;
+
+        var t110=42.3+x; var t210=37.0+x; var t310=26.1+x; var t410=25.7+x;
+
+        var t115=44+x; var t215=38.5+x; var t315=28.6+x; var t415=26.1+x;
+
+        var t120=45.5+x; var t220=40.4+x; var t320=30.7+x; var t420=27.5+x;
+
+        var t125=48+x; var t225=42.7+x; var t325=31.2+x; var t425=29.0+x;
+        
+
+          
+          document.getElementById('content').innerHTML='<table class="tb1" border="3cm"> <tr> <td class="p2"> </td> <td class="p2">T1</td> <td class="p2">T2</td> <td class="p2">T3</td> <td class="p2">T4</td> </tr> <tr> <td class="p2">5 min</td> <td class="p2">'+ t15 + '</td> <td class="p2">' + t25 + '</td> <td class="p2">' + t35 + '</td> <td class="p2">' + t45 + '</td> </tr> <tr> <td class="p2">10 min</td> <td class="p2">' + t110 + '</td> <td class="p2">' + t210 + '</td> <td class="p2">' + t310 + '</td> <td class="p2">' + t410 + '</td> </tr> <tr> <td class="p2">15 min</td> <td class="p2">' + t115 + '</td> <td class="p2">' + t215 + '</td> <td class="p2">' + t315 + '</td> <td class="p2">' + t415 + '</td> </tr> <tr> <td class="p2">20 min</td> <td class="p2">' + t120 + '</td> <td class="p2">' + t220 + '</td> <td class="p2">' + t320 + '</td> <td class="p2">' + t420 + '</td> </tr> <tr> <td class="p2">25 min</td> <td class="p2">' + t125 + '</td> <td class="p2">' + t225 + '</td> <td class="p2">' + t325 + '</td> <td class="p2">' + t425 + '</td> </tr> </table> <style>td{ text-align: center; width: 50px; height: 50px; color: black; background-color: white; font-display: auto; }  </style> ';
+           
+      }
+      else if(slidecounter==2)
+      {
+        if(val>24.0)
+        {
+          d=val-24.0;
+          x=x+(0.20*d);
+        }
+        else if(val<24.0)
+        {
+          d=24.0-val;
+          x=x-(0.20*d);
+        }
+        var t55=52.4+x; var t65=33.6+x; var t75=23.9+x; var t85=21.6+x;
+
+        var t510=54.7+x; var t610=35.2+x; var t710=24.3+x; var t810=22.6+x;
+
+        var t515=58.1+x; var t615=37.5+x; var t715=26.9+x; var t815=24.9+x;
+
+        var t520=60.7+x; var t620=39.3+x; var t720=27.7+x; var t820=25.3+x;
+
+        var t525=61.4+x; var t625=40.5+x; var t725=27.8+x; var t825=26.4+x;
+         
+          document.getElementById('content').innerHTML='<table class="tb1" border="3cm"> <tr> <td class="p2"></td> <td class="p2">T5</td> <td class="p2">T6</td> <td class="p2">T7</td> <td class="p2">T8</td> </tr> <tr> <td class="p2">5 min</td> <td class="p2">'+ t55 + '</td> <td class="p2">'+ t65 + '</td> <td class="p2">'+ t75 + '</td> <td class="p2">'+ t85 + '</td> </tr> <tr> <td class="p2">10 min</td> <td class="p2">'+ t510 + '</td> <td class="p2">'+ t610 + '</td> <td class="p2">'+ t710 + '</td> <td class="p2">'+ t810 + '</td> </tr> <tr> <td class="p2">15 min</td> <td class="p2">'+ t515+ '</td> <td class="p2">'+ t615+ '</td> <td class="p2">'+ t715+ '</td> <td class="p2">'+ t815+ '</td> </tr> <tr> <td class="p2">20 min</td> <td class="p2">'+ t520+ '</td> <td class="p2">'+ t620+ '</td> <td class="p2">'+ t720+ '</td> <td class="p2">'+ t820+ '</td> </tr> <tr> <td class="p2">25 min</td> <td class="p2">'+ t525+ '</td> <td class="p2">'+ t625+ '</td> <td class="p2">'+ t725+ '</td> <td class="p2">'+ t825+ '</td> </tr> </table> <style>td{ text-align: center; width: 50px; height: 50px; color: black; background-color: white; font-display: auto; }  </style> ';
+          
+          
+      }
+      else if(slidecounter==3)
+      {
+         
+        if(val>24.0)
+        {
+          d=val-24.0;
+          x=x+(0.20*d);
+        }
+        else if(val<24.0)
+        {
+          d=24.0-val;
+          x=x-(0.20*d);
+        }
+        var t95=66.5+x; var t105=30.2+x; var t115=21.9+x; var t125=21.7+x;
+
+        var t910=67.7+x; var t1010=30.9+x; var t1110=22.3+x; var t1210=22.0+x;
+
+        var t915=77.5+x; var t1015=34.7+x; var t1115=22.5+x; var t1215=22.4+x;
+
+        var t920=85.7+x; var t1020=37.1+x; var t1120=22.9+x; var t1220=22.6+x;
+
+        var t925=87.6+x; var t1025=37.3+x; var t1125=23.4+x; var t1225=22.8+x;
+         
+          document.getElementById('content').innerHTML='<table class="tb1" border="3cm"> <tr> <td class="p2"></td> <td class="p2">T9</td> <td class="p2">T10</td> <td class="p2">T11</td> <td class="p2">T12</td> </tr> <tr> <td class="p2">5 min</td> <td class="p2">'+ t95 + '</td> <td class="p2">'+ t105 + '</td> <td class="p2">'+ t115 + '</td> <td class="p2">'+ t125 + '</td> </tr> <tr> <td class="p2">10 min</td> <td class="p2">'+ t910 + '</td> <td class="p2">'+ t1010 + '</td> <td class="p2">'+ t1110 + '</td> <td class="p2">'+ t1210 + '</td> </tr> <tr> <td class="p2">15 min</td> <td class="p2">'+ t915 + '</td> <td class="p2">'+ t1015 + '</td> <td class="p2">'+ t115 + '</td> <td class="p2">'+ t1215 + '</td> </tr> <tr> <td class="p2">20 min</td> <td class="p2">'+ t920 + '</td> <td class="p2">'+ t1020 + '</td> <td class="p2">'+ t1120 + '</td> <td class="p2">'+ t1220 + '</td> </tr> <tr> <td class="p2">25 min</td> <td class="p2">'+ t925 + '</td> <td class="p2">'+ t1025 + '</td> <td class="p2">'+ t1125 + '</td> <td class="p2">'+ t1225 + '/td> </tr> </table> <style>td{ text-align: center; width: 50px; height: 50px; color: black; background-color: white; font-display: auto; }  </style> ';
+          
+          
+      }
+      else if(slidecounter==4)
+      {
+        if(val>24.0)
+        {
+          d=val-24.0;
+          x=x+(0.08*d);
+        }
+        else if(val<24.0)
+        {
+          d=24.0-val;
+          x=x-(0.08*d);
+        }
+        var t1h=48.0+x; var t1c=62.6+x; var t1s=93.7+x;
+
+        var t2h=43.7+x; var t2c=41.7+x; var t2s=40.2+x; 
+
+        var t3h=34.5+x; var t3c=30.7+x; var t3s=23.5+x;
+
+
+          document.getElementById('content').innerHTML='<table class="tb1" border="3cm"> <tr> <td class="p2"></td> <td class="p2">Heat pipe</td> <td class="p2">copper pipe</td> <td class="p2">stainless steal</td> </tr> <tr> <td class="p2">100 mm</td> <td class="p2">'+ t1h + '</td> <td class="p2">'+ t1c + '</td> <td class="p2">'+ t1s + '</td> </tr> <tr> <td class="p2">180 mm</td> <td class="p2">'+ t2h + '</td> <td class="p2">'+ t2c + '</td> <td class="p2">'+ t2s + '</td> </tr> <tr> <td class="p2">340 mm</td> <td class="p2">'+ t3h + '</td> <td class="p2">'+ t3c + '</td> <td class="p2">'+ t3s + '</td> </tr> </table>  <style>td{ text-align: center; width: 50px; height: 60px; color: black; background-color: white; font-display: auto; }  </style>';
+          
+          
+      }
+      
+    
+      else if(slidecounter==5)
+      {
+        
+          document.getElementById('subheading').innerHTML='end of the simulation . Reload the page ';
+          location.reload();
+           
+      }
+   
+   
+  
+  
+  
+  }
+</script>  
+
+
+<script src="js/myscript.js">conected</script>
+</body>
+</html>
+
+<style>body {
+  font-family: 'TitilliumWeb';
+  background-color: white;
+}</style>
