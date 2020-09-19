@@ -6,7 +6,7 @@ Remove this line before submitting : To Refer a filled sample of this template v
 <b>Discipline | <b>Mechanical Engineering
 :--|:--|
 <b> Lab | <b> Heat and Mass Transfer
-<b> Experiment|     <b> CONVECTION Heat Pipe Convection Experiment
+<b> Experiment|     <b> CONVECTION-Heat Pipe Convection Experiment
 
 <h5> About the Lab (Objective) : </h5>
 
