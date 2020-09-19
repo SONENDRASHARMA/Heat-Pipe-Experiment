@@ -90,25 +90,35 @@
 
   const myQuestions = [
     {
-      question: "This is question 1?",  ///// Write the question inside double quotes
+      question: "Which of the following can be used as Working fluid for heat pipe ?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "Ammonia",                  ///// Write the option 1 inside double quotes
+        b: "Air",                  ///// Write the option 2 inside double quotes
+        c: "Hydrogen",                  ///// Write the option 3 inside double quotes
+        d: "Carbon dioxide"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "a"                ///// Write the correct option inside double quotes
+      correctAnswer: "b"                ///// Write the correct option inside double quotes
     },
 
     {
-      question: "This is question 2?",  ///// Write the question inside double quotes
+      question: "Which of the following can be used as container material in heat pipe?",  ///// Write the question inside double quotes
       answers: {
-        a: "Option 1",                  ///// Write the option 1 inside double quotes
-        b: "Option 2",                  ///// Write the option 2 inside double quotes
-        c: "Option 3",                  ///// Write the option 3 inside double quotes
-        d: "Option 4"                   ///// Write the option 4 inside double quotes
+        a: "Copper",                  ///// Write the option 1 inside double quotes
+        b: "Aluminium",                  ///// Write the option 2 inside double quotes
+        c: "Stainless steel",                  ///// Write the option 3 inside double quotes
+        d: "All of the above"                   ///// Write the option 4 inside double quotes
       },
-      correctAnswer: "b"                ///// Write the correct option inside double quotes
+    },
+      correctAnswer: "c"     ///// Write the correct option inside double quotes
+      {
+      question: "The function of wick structure is?",  ///// Write the question inside double quotes
+      answers: {
+        a: "To generate temperature difference",                  ///// Write the option 1 inside double quotes
+        b: "To generate capillary pressure",                  ///// Write the option 2 inside double quotes
+        c: "To transfer heat",                  ///// Write the option 3 inside double quotes
+        d: "to obstruct the flow"                   ///// Write the option 4 inside double quotes
+      },
+      correctAnswer: "b"
     },                                  ///// To add more questions, copy the section below 
     									                  ///// this line
 
