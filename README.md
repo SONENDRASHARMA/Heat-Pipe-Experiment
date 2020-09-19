@@ -6,7 +6,7 @@ Remove this line before submitting : To Refer a filled sample of this template v
 <b>Discipline | <b>Mechanical Engineering
 :--|:--|
 <b> Lab | <b> Heat and Mass Transfer
-<b> Experiment|     <b> 1.Heat Pipe Convection Experiment
+<b> Experiment|     <b> CONVECTION Heat Pipe Convection Experiment
 
 <h5> About the Lab (Objective) : </h5>
 
@@ -18,11 +18,11 @@ To demonstrate the super thermal conductivity of heat pipe and to compare its wo
 
 <h5> Target Audience : </h5>
 
-UG  Students and faculties of Mechanical Engineering
+Third year UG  Students and faculties of Mechanical Engineering
 
 <h5> Course Alignment : </h5>
 
-B.Tech (Mechanical Engineering), Heat and Mass Transfer Lab(KME551)
+B.Tech (Mechanical Engineering)
 
 <h5> Universities Mapped : </h5>
 
@@ -46,12 +46,10 @@ Dr. A.P.J Abdul Kalam Technical University(AKTU)
 
 SrNo | Name | Faculty or Student | Department| Institute | Email id
 :--|:--|:--|:--|:--|:--|
-1 | T.Senthil Siva Subramanian | Faculty |        | Hindustan College of Science & Technology | Tss.senthil.hcst@sgei.org
-2 | SONENDRA | Faculty | Mechanical Engineering | KIET Group of Institutions,Ghaziabad | Sonendra.sharma@kiet.edu
-3 | YASH BHARADWAJ | Student | Mechanical Engineering | KIET Group of Institutions,Ghaziabad | bhardwajyash001@gmail.com
-4 | AVIRAL SRIVASTAVA | Student | Information Technology | KIET Group of Institutions,Ghaziabad | avisrivastava104@gmail.com
-5 | AMIR IQBAL | Student | Information Technology | KIET Group of Institutions,Ghaziabad | amireripmav786@gmail.com
-6 | YOGYA KHURANA | Student | Electronics and Communication | KIET Group of Institutions,Ghaziabad | khurana.yogya05@gmail.com
+1 | YASH BHARADWAJ | Student | Mechanical Engineering | KIET Group of Institutions,Ghaziabad | bhardwajyash001@gmail.com
+2 | AVIRAL SRIVASTAVA | Student | Information Technology | KIET Group of Institutions,Ghaziabad | avisrivastava104@gmail.com
+3 | AMIR IQBAL | Student | Information Technology | KIET Group of Institutions,Ghaziabad | amireripmav786@gmail.com
+4 | YOGYA KHURANA | Student | Electronics and Communication | KIET Group of Institutions,Ghaziabad | khurana.yogya05@gmail.com
 
 
 <br>
