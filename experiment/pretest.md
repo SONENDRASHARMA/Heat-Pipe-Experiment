@@ -1,4 +1,4 @@
-## <b> Pre-test
+##  Pre-test
 #### Please attempt the following questions
 
 1) Which of the following is having maximum rate of heat transfer.<br>
