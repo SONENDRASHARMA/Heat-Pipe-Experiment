@@ -31,7 +31,7 @@ Sr. No |	Learning Objective	| Cognitive Level | Action Verb
 :--|:--|:--|:-:
 1.| User will be able to: <br>Describe the concept of heat transfer in heat pipe | [Understand](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Describe](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
 2.| User will be able to: <br>Understand heat transfer rate in heat pipe is higher than other available metals like | [Understand](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Understand](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
-3.| User will be able to: <br>Understand that heat transfer coefficient for Boiling and Condensation is very high | [Apply](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Apply](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
+3.| User will be able to: <br>Understand that heat transfer coefficient for Boiling and Condensation is very high | [Understand](http://vlabs.iitb.ac.in/vlabs-dev/document.php) | [Understand](http://vlabs.iitb.ac.in/vlabs-dev/document.php)
 
 
 <br/>
