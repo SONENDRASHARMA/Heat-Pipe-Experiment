@@ -22,33 +22,34 @@ Step5: After experiment is over ,set dimmerstat to zero , switch off the main su
 Q-1 Which of the following is having maximum rate of heat transfer
 a)	Steel rod
 b)	Copper rod
-c)	Heat Pipe
+<b>c)	Heat Pipe</b>
 d)	Aluminium rod
+<br>
 Q-2 Which of the following convection process has highest value of heat transfer coefficient
 a) Free convection
 b) Forced Convection
-c) Boiling and Condensation
+<b>c) Boiling and Condensation</b>
 d) Mixed Convection
-
-### Post Test
+<br>
+### Post Test<br>
 Q Which of the following can be used as Working fluid for heat pipe 
-a) Ammonia
+<b>a) Ammonia</b>
 b) Air
 c) Hydrogen
 d) carbon dioxide
-
+<br>
 Q 2. Which of the following can be used as container material in heat pipe
 a) Copper
 b) Aluminium
 c) Stainless Steel
-d) All of the above
-
+<b>d) All of the above</b>
+<br>
 Q 3. The function of wick structure is
 a) To generate temperature difference
-b) To generate capillary pressure
+<b>b) To generate capillary pressure</b>
 c) To transfer heat
 d) To obstruct the flow
-
+<br>
 ### References
 	Heat Transfer by J.P Holman , McGraw-Hill Publications.
 	Heat and Mass Transfer by  R Yadav
