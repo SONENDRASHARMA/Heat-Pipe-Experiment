@@ -4,7 +4,7 @@
 Remove this line before submitting : To Refer a filled sample of this template visit here : <br> http://vlabs.iitb.ac.in/gitlab/Community-Docs/New-Lab-development/Samples
 <br>
 <br>
-<b> Experiment ABCDEF Lab  <a name="top"></a> <br>
+<b> Experiment ABCDEF Lab  <a name="top"></a> <br></b>
 </p>
 
 <b>Discipline | <b>Mechanical Engineering
