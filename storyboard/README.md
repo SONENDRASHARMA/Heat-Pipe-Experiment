@@ -54,9 +54,9 @@ User will take approximate 2-3 minutes for understanding the procedure. Then for
 ### 5. Storyboard :
 Step1: First of all we designed Heat pipe aaparatus on  on CATIA<br>
 Step2: Secondly we designed control panel which consists Voltmeter, Ammeter ,temperature Indicator and main switch<br>
-<img src="https://ibb.co/LrbCmWz"><br>
+<img src="https://i.postimg.cc/N0Vq8Pd3/2.jpg"><br>
 Step3: Thirdly we designed tab to enter input voltmeter and current values<br>
-<img src="https://ibb.co/4WnBHcj"><br>
+<img src="https://i.postimg.cc/s2bqGGXy/3.jpg"><br>
 Step4: Then We designed the instruction tab<br>
-<img src="https://ibb.co/CbQNV6K"><br>
+<img src="https://i.postimg.cc/L8b0Ggjf/4.jpg"><br>
 Step5: Then We designed the instruction tab<br>
