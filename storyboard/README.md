@@ -50,7 +50,7 @@ User will take approximate 2-3 minutes for understanding the procedure. Then for
 
 ### 3. Flowchart 4
 <img src="https://i.postimg.cc/hjf4cdYB/1.jpg"><br>
-<img src="<img src="https://i.postimg.cc/hjf4cdYB/1.jpg"><br>"><br>
+<img src="<img src="https://i.postimg.cc/3rFwHm9P/5.png"><br>
 
 ### 5. Storyboard :
 Step1: First of all we designed Heat pipe aaparatus on  on CATIA<br>
