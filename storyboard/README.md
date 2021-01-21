@@ -50,15 +50,10 @@ User will take approximate 2-3 minutes for understanding the procedure. Then for
 
 ### 3. Flowchart 4
 <img src=""/><br>
-link to flow chart Here : Store in the  /flowchart folder within Round2 folder in your repo
-<br>
-(guide :The lab proposer should extract logic from the story, prepare a flowchart from the story narration and write the algorithm to execute the black box.  use Google Drawings https://docs.google.com/drawings/ (send the link to your flowchart and also attach .png by exporting it )
-
 
 ### 5. Storyboard :
-Step1: Close the drain valve of condenser tank.and fill equal amount of waterin three condenser tanks so that pipe is submerged completely in water.
-Step2: Switch on main ON/OFF switch.
-Step3: Set the heater input by dimmerstat, voltmeter in the range of 40 to 100 V.
-
-Step4: After 15 min note down the readings of voltmeter , ammeter and temperature sensors in observation table after every 10 minutes interval 
-Step5: After experiment is over ,set dimmerstat to zero , switch off the main supply and drain water from condenser.
+Step1: First of all we designed Heat pipe aaparatus on  on CATIA
+Step2: Secondly we designed control panel which consists Voltmeter, Ammeter ,temperature Indicator and main switch
+Step3: Thirdly we designed tab to enter input voltmeter and current values
+Step4: Then We designed the instruction tab
+Step5: Then We designed the instruction tab
